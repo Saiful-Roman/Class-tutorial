@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+img{
+	max-width: 100%;
+	display: block;
+}
+section{
+    background-color: #1ABC9C;
+    text-align: center;
+}
+.feature{
+    padding: 150px 0;
+}
+.feature img{
+    max-width: 20%;
+    margin-bottom: 30px;
+    margin: auto;
+    display: block;
+}
+
+.feature h1{
+    color: white;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+
+.feature span{
+    display: block;
+    height: 5px;
+    background: white;
+    width:300px;
+    margin: 40px auto;
+   
+
+}
+.feature p{
+    font-size: 25px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.protfolio-section{
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.protfolio-section h2{
+    font-size: 50px;
+    color: #2C3E50;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.protfolio-section span{
+    display: block;
+    height: 4px;
+    background: #2C3E50;
+    width: 275px;
+    margin: 25px auto;
+}
+
+.about-section{
+    background-color: #1ABC9C;
+    text-align: center;
+    padding: 50px 5px;
+
+}
+.about-section h2{
+    font-size: 60px;
+   
+}
+.about-section span{
+    display: block;
+    height: 3px;
+    background: white;
+    width: 230px;
+    margin: 40px auto;
+}
+
+
+.about-section p{
+    font-size: 20px;
+
+}
+.contact-section{
+    text-align: center;
+    padding: 50px 5px;
+}
+
+.contact-section h2{
+    font-size: 50px;
+}
+
+.contact-section span{
+    display: block;
+    height: 4px;
+    background: #2C3E50;
+    width: 275px;
+    margin: 25px auto;
+}
+
+
+.contact-form{
+    padding: 50px 0;
+}
+
+.form-group{
+    text-align: justify;
+    margin-top: 5px;
+}
+.form-group button{
+    color: #fff;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+}
+
+.footer-section{
+    background-color: #2c3e50;
+    padding: 50px;
+}
+
+.footer-content h5{
+    font-size: 30px;
+}
+
+.footer-content i{
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 100px;
+    margin: 0 5px;
+}
+.copyright{
+    background-color: #212529;
+}
